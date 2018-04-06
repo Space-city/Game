@@ -1,0 +1,4 @@
+-ressource (uranium,fer, argent,sable,roche lunaire)
+-maison spatiale et autre batiment
+-les missions
+-parler bien francais (important pour plus tard)
