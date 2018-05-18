@@ -1,5 +1,4 @@
 function starcity () {
 	template()
+	inscription()
 }
-
-document.localStorage

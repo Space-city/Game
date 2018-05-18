@@ -1,7 +1,7 @@
 var templates = {
 	header: './partials/header.html',
-	footer: './partials/footer.html',
-	sidebar: './partials/sidebar.html'
+	map: './partials/map.html',
+	sidebar: './partials/sidebar.html',
 }
 
 function getContent(template, cb) {
@@ -19,10 +19,11 @@ function template () {
 		body.innerHTML = tpl
 	})
 
-	getContent(templates.footer, function (footer) {
-		tpl = tpl.replace(/{{footer}}/g, footer)
+	getContent(templates.map, function (map) {
+		tpl = tpl.replace(/{{map}}/g, map)
 		body.innerHTML = tpl
 	})
+	
 	getContent(templates.sidebar, function (sidebar) {
 		tpl = tpl.replace(/{{sidebar}}/g, sidebar)
 		body.innerHTML = tpl
