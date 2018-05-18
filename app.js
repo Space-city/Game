@@ -1,4 +1,0 @@
-function starcity () {
-	template()
-	inscription()
-}
