@@ -1,0 +1,29 @@
+aside {
+	width: 12vw;
+	min-width: 150px;
+	min-height: 50vh;
+	background: #e1e1e1;
+	padding: 15px;
+}
+
+aside nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+aside nav ul li:hover {
+	cursor: pointer;
+}
+
+aside nav ul li label:hover {
+	cursor: pointer;
+}
+
+aside nav ul > li > ul.mines {
+	display: none;
+
+}
+aside nav ul > li:hover > ul.mines {
+	display: block;
+}
